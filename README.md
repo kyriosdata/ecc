@@ -6,3 +6,4 @@ Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de so
 
 ## Links relevantes
 - [CNCF](https://github.com/cncf/landscape)
+- [WiredTiger](https://github.com/wiredtiger/wiredtiger)
