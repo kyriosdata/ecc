@@ -1,0 +1,3 @@
+C:/Users/Lucas Felipe/Desktop/CMake - Básico/build/CMakeFiles/hello.dir
+C:/Users/Lucas Felipe/Desktop/CMake - Básico/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lucas Felipe/Desktop/CMake - Básico/build/CMakeFiles/ZERO_CHECK.dir
