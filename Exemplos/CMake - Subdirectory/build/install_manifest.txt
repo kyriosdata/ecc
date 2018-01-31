@@ -1,0 +1,1 @@
+C:/Users/Lucas Felipe/Documents/GitHub/ecc/Exemplos/CMake - Subdirectory/execs/hello.exe
