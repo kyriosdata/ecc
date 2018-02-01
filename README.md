@@ -21,6 +21,7 @@ Os exemplos presentes neste repositório auxiliam na compreensão e uso das ferr
 - [CMake - Subdirectory](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake%20-%20Subdirectory) - básicos do uso do CMake, uso de um subdiretório, criação de um executável, uso de variáveis, uso de expressões de seleção básico, etc. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/blob/master/Exemplos/CMake%20-%20Subdirectory/README.md) do exemplo.  
 - [CMake - Library](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake%20-%20Library) - uso de funções para encontrar e 
 vincular bibliotecas junto à targets. Princípios básicos do uso de variáveis e Scripts. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/blob/master/Exemplos/CMake%20-%20Library/README.md) do exemplo.
+- [CMake - Configure](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake%20-%20Configure) - uso da função configure_file para configurar um Header.h a partir de um arquivo de entrada.h.in que CMake usa como intermediário. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/blob/master/Exemplos/CMake%20-%20Configure/README.md) do exemplo.
 
 ## Construção do projeto
 A sequência de passos para compilar e gerar executáveis através do CMake está descrita na [wiki do CMake](https://github.com/kyriosdata/ecc/wiki/CMake)
