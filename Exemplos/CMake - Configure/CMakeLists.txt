@@ -1,12 +1,12 @@
-#Vers„o mÌnima do CMake para executar esse CMakeLists.txt
+#Vers√£o m√≠nima do CMake para executar esse CMakeLists.txt
 cmake_minimum_required(VERSION 3.0)
 
 #Nome do projeto
 project(ConfigCMake C)
 
-#Adiciona o subdiretÛrio src
-#CMake para a execuÁ„o desse arquivo aqui...
+#Adiciona o subdiret√≥rio src
+#CMake para a execu√ß√£o desse arquivo aqui...
 add_subdirectory(config)
 
 #...e retorna aqui
-message(STATUS "CMakeLists in top-level dir")
+message(STATUS "CMakeLists no diretorio superior")
