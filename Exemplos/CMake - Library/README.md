@@ -175,8 +175,7 @@ comando:
         mingw32-make install
    
 6. Tudo pronto. Agora, para executar o objeto gerado na etapa 6, basta abrir o diretório de saída que foi específicado em CMakeLists com
-a variável ${EXECUTABLE_OUTPUT_PATH} e executá-lo com ./abb. Da mesma forma, para executar a target script instalada, basta abrir o 
-diretório especificado após DESTINATION e executá-la com seu nome de arquivo.
+a variável ${EXECUTABLE_OUTPUT_PATH} e executá-lo com ./abb (abb.exe em Windows). Da mesma forma, para executar a target script instalada, basta abrir o diretório especificado após DESTINATION e executá-la com seu nome de arquivo.
 
         Windows:  runAbb.bat
     
