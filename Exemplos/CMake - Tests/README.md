@@ -1,5 +1,5 @@
 # Sobre o exemplo
-Neste exemplo podemos observar como um header pode ser configurado a partir de variáveis e valores obtidos através do CMake.
+Neste exemplo a forma como testes são adicionados através do CMake foi apresentada. Os testes tem como função única apresentar o funcionamento dos comandos relacionados à eles.
  
 ## Estrutura do diretório
 
