@@ -1,0 +1,16 @@
+#ifndef SISTEMA_H
+#define SISTEMA_H
+#include <stdio.h>
+
+#cmakedefine RAM @RAM@
+#cmakedefine ID @ID@
+
+struct system{
+
+    char *nome;
+
+	int memo;	
+
+};
+
+#endif // CONFIG_H
