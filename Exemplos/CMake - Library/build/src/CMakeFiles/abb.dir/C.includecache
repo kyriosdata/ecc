@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Lucas Felipe/Desktop/CMake - Biblioteca/src/abb.c
+abb.h
+C:/Users/Lucas Felipe/Desktop/CMake - Biblioteca/src/abb.h
+
+C:/Users/Lucas Felipe/Desktop/CMake - Biblioteca/src/abb.h
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+
+C:/Users/Lucas Felipe/Desktop/CMake - Biblioteca/src/main.c
+abb.h
+C:/Users/Lucas Felipe/Desktop/CMake - Biblioteca/src/abb.h
+
