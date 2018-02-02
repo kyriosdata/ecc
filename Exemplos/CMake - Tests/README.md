@@ -61,7 +61,7 @@ Os passos para o uso do gerador MinGW através do prompt de comando do Windows s
 
 2. Encontre o diretório do projeto e acesse a pasta build em seguida.
 
-        Exemplo: cd Projetos/CMake - Configure/build
+        Exemplo: cd Projetos/CMake - Tests/build
 
 3. Dentro do subdiretório build execute o comando cmake .. -G "MinGw Makefiles". Isso informa ao CMake o caminho (no caso .., diretório 
 pai) onde procurar por CMakeLists.txt, o arquivo básico descrito acima e também o gerador a ser utilizado. O gerador "MinGW Makefiles"
