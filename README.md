@@ -11,6 +11,7 @@ Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de so
 ## Ferramentas
 A descrição da instalação e do uso das ferramentas pode ser encontrada na [wiki](https://github.com/kyriosdata/ecc/wiki) do projeto
 - [CMake](https://github.com/kyriosdata/ecc/wiki/CMake): conjunto de ferramenta open-source para desenvolvimento cross-plataform. Possui ferramentas que auxiliam na construção, teste, e empacotamento de softwares desenvolvidos em C, C++, Fortran e Python.
+- [Travis-CI](https://github.com/kyriosdata/ecc/wiki/Travis-CI): serviço de integração contínua que viabiliza o uso de ferramentas de build, teste, análise de código, etc. para projetos hospedados no GitHub. Uma dessas ferramentas é o CMake, o que corrobora a utilização da mesma.
 
 ## Exemplos
 Os exemplos presentes neste repositório auxiliam na compreensão e uso das ferramentas propostas. 
