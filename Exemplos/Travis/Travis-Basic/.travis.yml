@@ -1,9 +1,12 @@
 language: C
-   compiler:
-      - gcc
-   before_script:
-      - cd Exemplos/Travis/Travis-Basic
-   script:
-      - gcc -c main.c
-      - gcc main.o -o exec
-      - ./exec
+
+compiler:
+   - gcc
+
+before_script:
+   - cd Exemplos/Travis/Travis-Basic
+
+script:
+   - gcc -c main.c
+   - gcc main.o -o exec
+   - ./exec
