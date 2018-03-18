@@ -4,10 +4,6 @@ Entrega Contínua para Desenvolvimento em C
 ## Objetivo
 Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de software na linguagem de programação C.
 
-## Links relevantes
-- [CNCF](https://github.com/cncf/landscape)
-- [WiredTiger](https://github.com/wiredtiger/wiredtiger)
-
 ## Ferramentas
 A descrição da instalação e do uso das ferramentas pode ser encontrada na [wiki](https://github.com/kyriosdata/ecc/wiki) do projeto
 - [CMake](https://github.com/kyriosdata/ecc/wiki/CMake): conjunto de ferramenta open-source para desenvolvimento cross-plataform. Possui ferramentas que auxiliam na construção, teste, e empacotamento de softwares desenvolvidos em C, C++, Fortran e Python.
@@ -29,6 +25,7 @@ vincular bibliotecas junto à targets. Princípios básicos do uso de variáveis
 **Nota:** 
 O único arquivo .travis.yml que será levado em conta pelo sistema do Travis é o arquivo na raiz do repositório. Todos os exemplos a seguir estão em uma pasta particular e não afetam a execução. Para fazer uso desses exemplos, basta substituir o conteúdo do arquivo .travis.yml na raiz pelo do exemplo desejado.
 - [Travis - Basic](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Basic) - Versão mais simples possível do uso de Travis para compilar e executar um programa em C. Uso dos comandos mais simples e uso de duas etapas de build. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Basic#sobre-o-exemplo) do exemplo.
+- [Travis - CMake - Basic](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic) - Versão simples do uso de Travis em conjunto da ferramenta CMake para criar um makefile que será usado para compilar um fonte em C. Descrição da criação da pasta build e do uso do comando cmake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic#sobre-o-exemplo) do exemplo.
 
 ## Construção do projeto
 A sequência de passos para compilar e gerar executáveis através do CMake está descrita na [wiki do CMake](https://github.com/kyriosdata/ecc/wiki/CMake#construindo-o-primeiro-projeto)
