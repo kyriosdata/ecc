@@ -1,0 +1,14 @@
+language: C
+
+compiler:
+  - gcc
+ 
+before_script:
+  - cd Exemplos/CMake/CMake-Install-Use
+  - mkdir build
+  - cd build
+  - cmake ..
+  
+script:
+  - make
+  - sudo make install
