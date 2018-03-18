@@ -1,0 +1,17 @@
+language: C
+
+compiler:
+  - gcc
+ 
+before_script:
+  - cd Exemplos/CMake/CMake-Configure
+  - mkdir build
+  - cd build
+  - cmake ..
+  
+script: 
+  - make
+  
+after_script:
+  - cd bin
+  - ./sistema
