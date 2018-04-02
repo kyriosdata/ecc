@@ -16,5 +16,4 @@ before_script:
   
 script:
   - make
-  - sudo make install
   - sonar-scanner
