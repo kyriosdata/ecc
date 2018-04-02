@@ -9,7 +9,7 @@ addons:
     token: $SONAR_TOKEN               #Variável de ambiente que guarda o token para SonarCloud.
  
 before_script:
-  - cd Exemplos/Travis/Travis-SonarCloud/SonarCloud-Script
+  - cd Exemplos/CMake/CMake-Basic
   - mkdir build
   - cd build
   - cmake ..
