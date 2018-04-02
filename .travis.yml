@@ -16,4 +16,5 @@ before_script:
   
 script:
   - make
+  - cd ../../../..
   - sonar-scanner
