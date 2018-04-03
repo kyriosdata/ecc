@@ -16,5 +16,6 @@ before_script:
   
 script:
   - make
-  - sudo make install
+  - build-wrapper-linux-x86-64 --out-dir bw-output make
+  - cd ../../../..
   - sonar-scanner
