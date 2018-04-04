@@ -1,6 +1,9 @@
 # ECC
 Entrega Contínua para projetos em linguagem C
 
+[![Build Status](https://travis-ci.org/kyriosdata/ecc.svg?branch=master)](https://travis-ci.org/kyriosdata/ecc)
+![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=alert_status)
+
 ## Objetivo
 Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de software na linguagem de programação C.
 
