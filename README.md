@@ -3,6 +3,17 @@ Entrega Contínua para projetos em linguagem C
 
 [![Build Status](https://travis-ci.org/kyriosdata/ecc.svg?branch=master)](https://travis-ci.org/kyriosdata/ecc)
 ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=alert_status)
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=sqale_rating)
+![Reliability](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=reliability_rating)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=security_rating)
+![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=ncloc)
+
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=bugs)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=code_smells)
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=coverage)
+![Duplicated Lines](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=duplicated_lines_density)
+![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=sqale_index)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=vulnerabilities)
 
 ## Objetivo
 Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de software na linguagem de programação C.
