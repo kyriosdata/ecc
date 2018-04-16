@@ -3,17 +3,6 @@ Entrega Contínua para projetos em linguagem C
 
 [![Build Status](https://travis-ci.org/kyriosdata/ecc.svg?branch=master)](https://travis-ci.org/kyriosdata/ecc)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=alert_status)](https://sonarcloud.io/dashboard?id=ecc)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=ecc&metric=Maintainability)
-[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=ecc&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=security_rating)](https://sonarcloud.io/component_measures?id=ecc&metric=Security)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=ncloc)](https://sonarcloud.io/component_measures?id=ecc&metric=ncloc)
-
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=bugs)](https://sonarcloud.io/component_measures?id=ecc&metric=new_bugs)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=code_smells)](https://sonarcloud.io/component_measures?id=ecc&metric=new_code_smells)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=coverage)](https://sonarcloud.io/component_measures?id=ecc&metric=Coverage)
-[![Duplicated Lines](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=ecc&metric=Duplications)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=sqale_index)](https://sonarcloud.io/component_measures?id=ecc&metric=sqale_index)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ecc&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=ecc&metric=vulnerabilities)
 
 ## Objetivo
 Definir uma proposta de Entrega Contínua para projetos de desenvolvimento de software na linguagem de programação C.
