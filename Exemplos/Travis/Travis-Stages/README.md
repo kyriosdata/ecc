@@ -11,7 +11,7 @@ tido sucesso, podemos adicionar um estágio "Tests" antes do estágio "Package".
 
 * Para dividir as etapas da build:
 
-      	jobs:
+      jobs:
 		include:
 		- stage: nome do estágio
 		  script:
