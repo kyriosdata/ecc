@@ -11,38 +11,38 @@ tido sucesso, podemos adicionar um estágio "Tests" antes do estágio "Package".
 
 * Para dividir as etapas da build:
 
-        jobs:
-			include:
-			- stage: nome do estágio
-			  script:
-				- comandos da etapa script
+      	jobs:
+		include:
+		- stage: nome do estágio
+		  script:
+			- comandos da etapa script
 
-			- stage: outro estágio
-			  script:
-				- novo comando de script
+		- stage: outro estágio
+		  script:
+			- novo comando de script
 
 
 No exemplo, temos:
 
-		before_script:
-		  - cd Exemplos/CMake/CMake-Tests
-		  - mkdir build
-		  - cd build
-		  - cmake ..
+	before_script:
+	  - cd Exemplos/CMake/CMake-Tests
+	  - mkdir build
+	  - cd build
+	  - cmake ..
 
-		jobs:
-			include:
-			- stage: build and sonar
-			  script:
-				- build-wrapper-linux-x86-64 --out-dir bw-output make        
-				- cd ../../../..
-				- sonar-scanner
+	jobs:
+		include:
+		- stage: build and sonar
+		  script:
+			- build-wrapper-linux-x86-64 --out-dir bw-output make        
+			- cd ../../../..
+			- sonar-scanner
 
-			- stage: tests
-			  script:
-				- make
-			  after_script:
-				- ctest -V
+		- stage: tests
+		  script:
+			- make
+		  after_script:
+			- ctest -V
 
 
 Como o comando ctest -V foi adicionado na etapa after_script do estágio tests, sua saída só fará com que a epata, 
