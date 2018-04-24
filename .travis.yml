@@ -9,12 +9,13 @@ addons:
     token: $SONAR_TOKEN               #Variável de ambiente que guarda o token para SonarCloud.
  
 before_script:
-  - cd Exemplos/CMake/CMake-Basic
+  - cd Exemplos/CMake/CMake-Tests
   - mkdir build
   - cd build
   - cmake ..
   
 script:
   - build-wrapper-linux-x86-64 --out-dir bw-output make
+  - ctest -V
   - cd ../../../..
   - sonar-scanner
