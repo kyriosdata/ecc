@@ -32,6 +32,9 @@ O único arquivo .travis.yml que será levado em conta pelo sistema do Travis é
 - [Travis - CMake - Basic](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic) - Versão simples do uso de Travis em conjunto da ferramenta CMake para criar um makefile que será usado para compilar um fonte em C. Descrição da criação da pasta build e do uso do comando cmake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic#sobre-o-exemplo) do exemplo.
 - [Travis - CMake - Install](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Install) - Realiza uma instalação a partir do uso de 'make install' para exemplificar as regras de instalação criadas em CMake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Install#sobre-o-exemplo) do exemplo.
 - [Travis - SonarCloud](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud) - Inclui o gatilho da análise estática promovida pela ferramenta SonarCloud que faz uso da cache de Travis-CI para tornar a análise mais rápida e menos dispendiosa. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud#sobre-o-exemplo) do exemplo.
+- [Travis - Test](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Tests) - Inclui comando para CTest. O intuíto 
+desse exemplo é fornecer material para análise de cobertura no SonarCloud e introduzir o uso da ferramenta CTest na gerência de testes
+em C. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Tests#sobre-o-exemplo) do exemplo.
 
 #### SonarCloud
 **Nota:**
