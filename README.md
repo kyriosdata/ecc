@@ -26,8 +26,6 @@ vincular bibliotecas junto à targets. Princípios básicos do uso de variáveis
 - [CMake - Tests](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake/CMake-Tests) - introdução aos testes sendo gerenciados pelo CMake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake/CMake-Tests#sobre-o-exemplo) do exemplo.
 - [CMake - Install - Use](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake/CMake-Install-Use) - junção do exemplo da criação de bibliotecas através do CMake e do uso destas. Os [pré-requisitos](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake/CMake-Install-Use#pr%C3%A9-requisitos) desse exemplo devem ser seguidos afinco, caso contrário, a saída dos resultados pode se misturar e a compreeensão ser prejudicada. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/CMake/CMake-Install-Use#sobre-o-exemplo) do exemplo.
 #### Travis
-**Nota:** 
-O único arquivo .travis.yml que será levado em conta pelo sistema do Travis é o arquivo na raiz do repositório. Todos os exemplos a seguir estão em uma pasta particular e não afetam a execução. Para fazer uso desses exemplos, basta substituir o conteúdo do arquivo .travis.yml na raiz pelo do exemplo desejado.
 - [Travis - Basic](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Basic) - Versão mais simples possível do uso de Travis para compilar e executar um programa em C. Uso dos comandos mais simples e uso de duas etapas de build. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Basic#sobre-o-exemplo) do exemplo.
 - [Travis - CMake - Basic](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic) - Versão simples do uso de Travis em conjunto da ferramenta CMake para criar um makefile que será usado para compilar um fonte em C. Descrição da criação da pasta build e do uso do comando cmake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Basic#sobre-o-exemplo) do exemplo.
 - [Travis - CMake - Install](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Install) - Realiza uma instalação a partir do uso de 'make install' para exemplificar as regras de instalação criadas em CMake. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-CMake-Install#sobre-o-exemplo) do exemplo.
@@ -35,11 +33,19 @@ O único arquivo .travis.yml que será levado em conta pelo sistema do Travis é
 - [Travis - Test](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Tests) - Inclui comando para CTest. O intuíto 
 desse exemplo é fornecer material para análise de cobertura no SonarCloud e introduzir o uso da ferramenta CTest na gerência de testes
 em C. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Tests#sobre-o-exemplo) do exemplo.
+- [Travis - Build Stages](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Stages) - Introdução ao uso de estágios 
+de build. Os estágios de build servem para organizar mais eficientemente a lógica da build. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-Stages#sobre-o-exemplo) do exemplo.
+
+**Notas:** 
+O único arquivo .travis.yml que será levado em conta pelo sistema do Travis é o arquivo na raiz do repositório. Todos os exemplos a seguir estão em uma pasta particular e não afetam a execução. Para fazer uso desses exemplos, basta substituir o conteúdo do arquivo .travis.yml na raiz pelo do exemplo desejado.
+
+A funcionalidade Build Stages ainda está em Beta e pode apresentar alguns erros.
 
 #### SonarCloud
+- [SonarCloud - Script](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud/SonarCloud-Script) - Contém arquivo de script que configura propriedades as quais a ferramenta tem acesso para poder realizar a análise estática do código. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud/SonarCloud-Script#sobre-o-exemplo) do exemplo.
+
 **Nota:**
 O uso dessa ferramenta está ligado ao script de Travis-CI. Dessa forma, parte do seu exemplo de uso está descrito em [Travis - SonarCloud](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud).
-- [SonarCloud - Script](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud/SonarCloud-Script) - Contém arquivo de script que configura propriedades as quais a ferramenta tem acesso para poder realizar a análise estática do código. Mais informações podem ser encontradas no [README](https://github.com/kyriosdata/ecc/tree/master/Exemplos/Travis/Travis-SonarCloud/SonarCloud-Script#sobre-o-exemplo) do exemplo.
 
 ## Construção do projeto
 A sequência de passos para compilar e gerar executáveis através do CMake está descrita na [wiki do CMake](https://github.com/kyriosdata/ecc/wiki/CMake#construindo-o-primeiro-projeto)
