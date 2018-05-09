@@ -14,5 +14,6 @@ int main(int argc, char *argv[]){
 
 	//returns the result of the tests
 	if       (test == 1)return inverse_test_success(x, y);
+	if	 (test == 1)return inverse_test_success(x, y); //Cópia proposital
 	else if  (test == 2)return  equals_test_success(x, y);
 }
