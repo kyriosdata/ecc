@@ -9,6 +9,10 @@ project(TestsCMake C)
 SET(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
 SET(GCC_COVERAGE_LINK_FLAGS    "-lgcov")
 
+#Adicionando as flags fazendo 'append' na variavel flags
+SET( CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
+SET( CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS}" )
+
 #Permite a criação de targets test.
 #Essas targets estão definidas no subdiretório tests
 enable_testing()
