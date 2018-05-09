@@ -1,15 +1,20 @@
-#Versão mínima do CMake para executar esse CMakeLists.
+#VersÃ£o mÃ­nima do CMake para executar esse CMakeLists.
 cmake_minimum_required(VERSION 3.0)
 
 #Nome do projeto
 project(TestsCMake C)
 
-#Permite a criação de targets test.
-#Essas targets estão definidas no subdiretório tests
+#O compilador GCC precisa de flags para saber que deve produzir 
+#uma cobertura de testes
+SET(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
+SET(GCC_COVERAGE_LINK_FLAGS    "-lgcov")
+
+#Permite a criaÃ§Ã£o de targets test.
+#Essas targets estÃ£o definidas no subdiretÃ³rio tests
 enable_testing()
 
-#Adiciona o subdiretório tests
-#A execução desse CMakeLists é pausada aqui...
+#Adiciona o subdiretÃ³rio tests
+#A execuÃ§Ã£o desse CMakeLists Ã© pausada aqui...
 add_subdirectory(tests)
 
 #...e retorna aqui
