@@ -17,9 +17,6 @@ before_script:
 script:
   - build-wrapper-linux-x86-64 --out-dir bw-output make        
   - cd bin
-  - ./test_target 1 10 -10
-  - ./test_target 2 11 -10
-  - ./test_target 1 10 -11
-  - ./test_target 2 10 -12
+  - ctest -V
   - cd ../../../../..
   - sonar-scanner
