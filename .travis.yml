@@ -16,7 +16,9 @@ before_script:
   
 script:
   - build-wrapper-linux-x86-64 --out-dir bw-output make        
+  - ls
   - cd bin
+  - ls
   - ./test_target 1 10 -10
   - ./test_target 2 11 -10
   - ./test_target 1 10 -11
