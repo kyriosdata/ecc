@@ -14,17 +14,8 @@ before_script:
   - cd build
   - cmake ..
   
-jobs:
-  include:
-    - stage: build and sonar
-      script:
-        - build-wrapper-linux-x86-64 --out-dir bw-output make        
-        - cd ../../../..
-        - sonar-scanner
-
-    - stage: tests
-      script:
-        - make
-      after_script:
-        - ctest -V
-            
+script:
+  - build-wrapper-linux-x86-64 --out-dir bw-output make        
+  - ctest -V
+  - cd ../../../..
+  - sonar-scanner
