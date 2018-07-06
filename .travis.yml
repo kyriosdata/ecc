@@ -4,7 +4,8 @@ compiler:
    - gcc
  
 before_script:
-   - mkdir build && cd “$_” 
+   - mkdir build
+   - cd build 
    - cmake ..
   
 script: 
