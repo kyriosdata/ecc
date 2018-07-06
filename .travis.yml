@@ -1,13 +1,21 @@
 ﻿language: C
 
 compiler:
-   - gcc
+  - gcc
+  
+addons:
+  sonarcloud:
+    organization: "ecc" #Nome da organização. Pode ser encontrado em https://sonarcloud.io/account/organizations
+    token: $SONAR_TOKEN               #Variável de ambiente que guarda o token para SonarCloud.
  
 before_script:
-   - mkdir build
-   - cd build 
-   - cmake ..
+  - cd Exemplos/CMake/CMake-Basic
+  - mkdir build
+  - cd build
+  - cmake ..
   
-script: 
-   - make
-
+script:
+  - make
+  - build-wrapper-linux-x86-64 --out-dir bw-output make
+  - cd ../../../..
+  - sonar-scanner
